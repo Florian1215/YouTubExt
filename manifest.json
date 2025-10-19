@@ -1,0 +1,59 @@
+{
+  "manifest_version": 2,
+  "name": "Unhook - Remove YouTube Recommended & Shorts",
+  "short_name": "Unhook",
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "browser_action": {
+    "default_icon": "images/icon-128.png",
+    "default_popup": "popup.html",
+    "default_title": "Unhook"
+  },
+  "author": "Unhook",
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "css": [
+        "css/content.css"
+      ],
+      "js": [
+        "js/content.js"
+      ],
+      "all_frames": true,
+      "matches": [
+        "https://www.youtube.com/*",
+        "https://m.youtube.com/*"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "storage",
+    "webRequest",
+    "https://www.youtube.com/*",
+    "https://m.youtube.com/*"
+  ],
+  "web_accessible_resources": [
+    "js/unhook-yt.js"
+  ],
+  "version": "1.6.7",
+  "description": "Hide YouTube related videos, shorts, comments, suggestions wall, homepage recommendations, trending, and other distractions.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "myallychou@gmail.com",
+      "strict_min_version": "52.0"
+    },
+    "gecko_android": {
+      "strict_min_version": "120.0"
+    }
+  }
+}
