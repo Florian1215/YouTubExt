@@ -5,11 +5,6 @@ Digest-Algorithms: SHA1 SHA256
 SHA1-Digest: Wf6NPUoSbYz/K8YKmVaGbV3FGCk=
 SHA256-Digest: 9HVeqhv4Q+jn45jBhWXfqd7MnXp5/MuWrghdB69ZhW4=
 
-Name: donate.html
-Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: flrAEi5r63wkcBsJA+IIr1p0QPM=
-SHA256-Digest: Fvl/4QsiIHQsNI6s9mDzOoAUTZuoBvdNvBQ/hjFvkBc=
-
 Name: LICENSE.txt
 Digest-Algorithms: SHA1 SHA256
 SHA1-Digest: ZkB+pc0LNmjY+HDl3cs/5oYmWHE=
@@ -19,11 +14,6 @@ Name: manifest.json
 Digest-Algorithms: SHA1 SHA256
 SHA1-Digest: lRQBx9Ob1HY+FtZAqCI17VLAiSA=
 SHA256-Digest: GXDGbnQH56Hn2vUgfUPzCt9IBdivF1MKniovviNIeG0=
-
-Name: troubleshoot.html
-Digest-Algorithms: SHA1 SHA256
-SHA1-Digest: G2i56ZIKbhJRC7NUuAMUFSWqjt0=
-SHA256-Digest: hFlYhfrCyPBa4tcK6cKuKT1rasnjc91YL1y+/45u3kw=
 
 Name: js/popup.js
 Digest-Algorithms: SHA1 SHA256
