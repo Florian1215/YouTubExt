@@ -40,10 +40,15 @@
     "storage",
     "webRequest",
     "https://www.youtube.com/*",
-    "https://m.youtube.com/*"
+    "https://m.youtube.com/*",
+    "http://127.0.0.1/*",
+    "http://localhost/*"
   ],
   "web_accessible_resources": [
-    "js/unhook-yt.js"
+    "js/unhook-yt.js",
+    "js/download-buttons.js",
+    "images/icon-download-video.svg",
+    "images/icon-download-audio.svg"
   ],
   "version": "1.6.7",
   "description": "Hide YouTube related videos, shorts, comments, suggestions wall, homepage recommendations, trending, and other distractions.",
