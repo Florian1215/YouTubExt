@@ -40,9 +40,7 @@
     "storage",
     "webRequest",
     "https://www.youtube.com/*",
-    "https://m.youtube.com/*",
-    "http://127.0.0.1/*",
-    "http://localhost/*"
+    "https://m.youtube.com/*"
   ],
   "web_accessible_resources": [
     "js/unhook-yt.js",
@@ -54,7 +52,7 @@
   "description": "Hide YouTube related videos, shorts, comments, suggestions wall, homepage recommendations, trending, and other distractions.",
   "browser_specific_settings": {
     "gecko": {
-      "id": "myallychou@gmail.com",
+      "id": "florian.guiramand@protonmail.com",
       "strict_min_version": "52.0"
     },
     "gecko_android": {
