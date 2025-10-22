@@ -2,10 +2,6 @@
     display: none !important
 }
 
-html[hide_header=true] #header.ytd-c4-tabbed-header-renderer, html[hide_header=true] #page-manager.ytd-app {
-    margin-top: 0 !important
-}
-
 html[hide_header=true] ytd-mini-guide-renderer.ytd-app {
     top: 0 !important
 }
