@@ -48,7 +48,7 @@
     "images/icon-download-video.svg",
     "images/icon-download-audio.svg"
   ],
-  "version": "1.6.7",
+  "version": "2",
   "description": "Hide YouTube related videos, shorts, comments, suggestions wall, homepage recommendations, trending, and other distractions.",
   "browser_specific_settings": {
     "gecko": {
